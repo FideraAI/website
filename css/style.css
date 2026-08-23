@@ -1,23 +1,24 @@
-html, body {
+html,
+body {
   height: 100%;
   margin: 0;
-  font-family: "Times New Roman";
+  background: #0f0f0d;
 }
 
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 1rem;
-  box-sizing: border-box;
+  min-height: 100vh;
+  min-height: 100dvh;
 }
 
-.intro img {
-  max-width: 100%;
+main {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+}
+
+.logo {
+  display: block;
+  width: clamp(11rem, 22vw, 18rem);
   height: auto;
-}
-
-.mission {
-  font-size: 2em;
 }
